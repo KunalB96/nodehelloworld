@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: hello-node
-        image: <your-dockerhub-username>/hello-node:latest
+        image: docker.io/atuljkamble/nodehelloworld
         ports:
         - containerPort: 3000
