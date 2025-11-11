@@ -60,8 +60,8 @@ git --version
 ### Clone the Project Repository
 
 ```bash
-git clone https://github.com/atulkamble/k8s-nodejs-hello-world.git
-cd k8s-nodejs-hello-world
+git clone https://github.com/atulkamble/nodehelloworld.git
+cd nodehelloworld
 ```
 
 ### Open in VS Code
