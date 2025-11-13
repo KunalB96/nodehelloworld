@@ -17,3 +17,6 @@ spec:
         image: 535002879962.dkr.ecr.us-east-1.amazonaws.com/cloudnautic/atulkamble:latest
         ports:
         - containerPort: 3000
+
+      imagePullSecrets:
+      - name: ecr-reg-secret
