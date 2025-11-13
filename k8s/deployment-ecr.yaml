@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-node-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hello-node
+  template:
+    metadata:
+      labels:
+        app: hello-node
+    spec:
+      containers:
+      - name: hello-node
+        image: 535002879962.dkr.ecr.us-east-1.amazonaws.com/cloudnautic/atulkamble:latest
+        ports:
+        - containerPort: 3000
