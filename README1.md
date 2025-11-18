@@ -143,7 +143,7 @@ npm-debug.log
 ### Build Image
 
 ```bash
-sudo docker build -t docker.io/atuljkamble/nodehelloworld .
+sudo docker build -t docker.io/kunalb96/nodehelloworld .
 ```
 
 ### Verify Image
@@ -155,13 +155,13 @@ sudo docker images
 ### Push Image to Docker Hub
 
 ```bash
-sudo docker push docker.io/atuljkamble/nodehelloworld
+sudo docker push docker.io/kunalb96/nodehelloworld
 ```
 
 ### Test Container Locally
 
 ```bash
-sudo docker run -d -p 3000:3000 docker.io/atuljkamble/nodehelloworld
+sudo docker run -d -p 3000:3000 docker.io/kunalb96/nodehelloworld
 ```
 
 ### Manage Containers
@@ -196,7 +196,7 @@ spec:
     spec:
       containers:
       - name: hello-node
-        image: docker.io/atuljkamble/nodehelloworld
+        image: docker.io/kunalb96/nodehelloworld
         ports:
         - containerPort: 3000
 ```
